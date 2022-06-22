@@ -2,6 +2,8 @@
 padding:0;
 box-sizing: border-box;
 color:white;
+font-family: 'Poppins', sans-serif;
+
 }
 body{
     background:linear-gradient(
@@ -41,7 +43,10 @@ form{
 }
 .generalInfo{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+}
+.generalInfo label{
+    margin-top:0.5rem;
 }
 .selection1{
     margin-top:15px;
